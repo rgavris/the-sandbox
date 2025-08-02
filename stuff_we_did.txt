@@ -1,0 +1,13 @@
+
+
+
+2 August 2025
+
+- Learned Vim
+- Struggled with nano
+- Installed WSL a virtual machine
+- Figured out how to get the Wexterm config to load
+- Started using bash inside WezTerm so we have Linux/Unix style commands
+- Made PRs on github, used git
+
+https://vim-adventures.com/
