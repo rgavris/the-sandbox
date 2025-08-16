@@ -1,0 +1,96 @@
+16 August
+
+// Client: React (JS, HTML, CSS)
+// API: Express or FastAPI or NextJS
+// Database: Redis or MongoDB or PostgreSQL
+// Full Stack Web Dev!!
+
+// Features:
+// React UI
+// Client-side CRUD operations (streak component talks to API)
+// Add API endpoints for /streak
+// Add CRUD operations for /streak: API talks to DB
+// Database stores streak data
+
+
+
+
+2 August 2025
+
+- Learned Vim
+- Struggled with nano
+- Installed WSL a virtual machine
+- Figured out how to get the Wexterm config to load
+- Started using bash inside WezTerm so we have Linux/Unix style commands
+- Made PRs on github, used git
+
+https://vim-adventures.com/
+
+9 August 2025
+- Arrays
+-- myarray stores the START address of a bunch of computer cells physically next to each other
+-- because it's next to each other, we can grab an arbitrary member in O(1) time
+-- O(1) to fetch an item like myArray[1000], O(1) to push, O(1) to pop.
+
+
+Big O Notation
+- ZZZZZbigniew. 1 million names in phone book vs 2 million names. Search one at a time: O(n).
+- myArray[-1], where -1 means the last thing. 1 million names vs 2 million: same, just 1 step. O(1)
+
+- Hash tables
+-- myObject.myNameOfProperty
+-- myArray['mySuperKey aka nameOfProperty']. Search through computer memory?? Store memory address every time??
+-- Idea: translate 'mySuperKey' into an index of an array. Put my data at that index, and also use translation to look up the index and get it.
+-- Now we can use arbitrary location in our array!
+
+[1, 2, ['bird', 'dad']]
+
+- Hashing function
+-- 'bird': how to turn into number?
+-- a: 1, b: 2
+-- const myHashingFunction = (myKey) => { const start = 0; for(letter in myKey) return (alphabetWorth(letter) + start) % lengthOfArray }
+-- add vs dad. We need a smarter myHashingFunction. Maybe give extra points per location???
+-- deterministic.
+-- unique: add vs dad
+-- fast or slow?
+-- 10394039480298340928340923840
+
+Decimal and Hexadecimal
+-- Place-based adding
+-- 10
+-- 10 is 16 in Hexadecimal
+-- 11 is 17
+-- 12
+-- 13 is 19
+-- 14 is 20
+-- 15
+-- 16
+-- 17
+-- 18
+-- 19
+-- 1A is 26 (in decimal)
+-- 1B is 27
+-- 1C is 28
+-- 1D is 29
+--... so on
+-- 1F is 31
+-- 20 is 32
+
+in hex we have: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F
+
+Hex is short! so we use it for big numbers
+
+fa35bc
+
+10 is 16
+20 is 32
+30 is 64
+40 is 128
+50 is 256
+
+Binary
+01 is 1
+10 is 2
+11 is 3
+100 is 4
+101 is 5
