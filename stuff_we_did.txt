@@ -1,3 +1,17 @@
+16 August
+
+// Client: React (JS, HTML, CSS)
+// API: Express or FastAPI or NextJS
+// Database: Redis or MongoDB or PostgreSQL
+// Full Stack Web Dev!!
+
+// Features:
+// React UI
+// Client-side CRUD operations (streak component talks to API)
+// Add API endpoints for /streak
+// Add CRUD operations for /streak: API talks to DB
+// Database stores streak data
+
 
 
 
